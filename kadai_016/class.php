@@ -70,10 +70,10 @@
         print_r($Animal_Object);
         echo '<br>';
 
-        $Food_Object->show_price(250);
+        $Food_Object->show_price();
         echo '<br>';
 
-        $Animal_Object->show_height(60);
+        $Animal_Object->show_height();
         echo '<br>';
         ?>
     </p>
